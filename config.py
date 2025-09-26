@@ -2,7 +2,7 @@ import os
 
 class Config:
     # Conexión a MySQL (XAMPP)
-    SQLALCHEMY_DATABASE_URI =  'mysql+pymysql://juan:juandc@isladigital.xyz:3311/f58_juan'
+    SQLALCHEMY_DATABASE_URI =  'mysql+pymysql://juand:juandc@isladigital.xyz:3311/f58_juand'
     SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://root:@127.0.0.1:3306/loginlevelup'
     SQLALCHEMY_DATABASE_URI = 'sqlite:///flaskdb.sqlite'
    
@@ -17,4 +17,5 @@ class Config:
     MAIL_USERNAME = 'david22guerreroml@gmail.com'
     MAIL_PASSWORD = 'akkgsgpjgsqeqfyb'  # contraseña de aplicación (16 dígitos)
     MAIL_DEFAULT_SENDER = 'david22guerreroml@gmail.com'
+
 
